@@ -9,10 +9,18 @@ body {
   text-align: center;
 }
 
+.card-container {
+  margin-top: 25px;
+}
+
+.title {
+  font-size: 25px;
+}
+
 a.link {
   display: block;
-  margin: 60px;
-  padding: 25px;
+  margin: 45px;
+  padding: 25px 0px 10px 0px;
   background-color: #568FCB;
 }
 
@@ -27,4 +35,26 @@ a.link {
 
 .link-style:hover {
 	color: #2C63ae;
+}
+
+.search {
+  font-family: "Operator Mono SSm A", "Operator Mono SSm B", 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+  font-size: 20px;
+	font-weight: 300;
+  display: block;
+  margin: auto;
+  width: 60%;
+  border: 2px solid #73AD21;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+.tags {
+  color: #568FCB;
+  font-size: 5px;
+}
+
+.footer-span {
+  text-align: center;
+  font-size: 12px;
 }

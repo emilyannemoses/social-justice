@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="card-container">
+    <!-- <div class="card-container">
       <a class="link link-style" href="https://blacklivesmatter.com/demilitarize-our-neighborhoods/" target="_blank" alt="Demilitarize neighborhoods">
         <span class="vertical-align"> Demilitarize Our Neighborhoods </span>
       </a>
@@ -21,10 +21,27 @@
       <a class="link link-style" href="https://www.adc.org/" target="_blank" alt="American Arab anti discrimination committee">
         <span class="vertical-align"> American-Arab Anti-Discrimination Committee </span>
       </a>
+    </div> -->
+    <div class="card-container">
+      <div class="title">Links to help you help fellow humans.</div>
+      <br>
+      <input autocomplete="off" id="search" class="search" type="text" placeholder="Search by keyword or location">
+      <div id="searchTerms" class="searchTerms">
+        <div id="links">
+          <div id="columns"></div>
+          <div id="link"></div>
+        </div>
+      </div>
     </div>
-    <div>
-      <a href="https://emilyannemoses.com/" target="_blank" class="link-style">Made with ♥️ by Emily Anne Moses</a>
-    </div>
-    <br>
+    <br />
+    <span class="footer-span">
+      <footer id="custom-footer">
+      </footer>
+    </span>
+    <br />
   </body>
+  <script src='scripts/footer.js'></script>
+  <script src='scripts/search.js'></script>
+  <script src='scripts/pages.js'></script>
+  <script src='scripts/links.js'></script>
 </html>
