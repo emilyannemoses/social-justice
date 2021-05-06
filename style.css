@@ -23,7 +23,9 @@ a.link {
   display: block;
   margin: 45px;
   padding: 25px 0px 10px 0px;
-  background-color: #568FCB;
+  /* background-color: #568FCB; */
+  border: 2px solid #73AD21;
+
 }
 
 .vertical-align {
@@ -52,7 +54,7 @@ a.link {
 }
 
 .tags {
-  color: #568FCB;
+  color: #f5f6fa;
   font-size: 1px;
 }
 
