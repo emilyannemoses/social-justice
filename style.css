@@ -4,7 +4,6 @@ body {
   font-family: Avenir, Sans-Serif;
   margin: 0;
   width: 100vw;
-  /* background-color: rgb(33, 33, 33); */
   background-color: #f5f6fa;
   text-align: center;
 }
@@ -23,7 +22,6 @@ a.link {
   display: block;
   margin: 45px;
   padding: 25px 0px 10px 0px;
-  /* background-color: #568FCB; */
   border: 2px solid #73AD21;
 
 }
