@@ -28,8 +28,9 @@ a.link {
   display: inline-block;
   text-decoration: none !important;
   margin: 10px auto;
-  border: 2px solid #73AD21;
+  border-bottom: 2px solid #73AD21;
   width: 50%;
+  max-height: auto;
 }
 
 .vertical-align {
@@ -55,6 +56,7 @@ a.link {
   border: 2px solid #73AD21;
   padding: 13px;
   border-radius: 0px;
+  margin-bottom: 25px;
 }
 
 .tags {
