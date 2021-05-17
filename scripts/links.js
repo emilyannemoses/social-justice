@@ -35,6 +35,7 @@ _GET(linkData, (data) => {
       <div class="terms">
         <div class="text">
           <a class="link link-style" href=${link.link} target="_blank" alt="Demilitarize neighborhoods">
+            <br/>
             <span class="vertical-align"> ${link.title} </span>
             <div class="tags">${link.tags}</div>
           </a>

@@ -1,6 +1,6 @@
 body {
   font-weight: 300;
-  font-size: 26px;
+  font-size: 20px;
   font-family: Avenir, Sans-Serif;
   margin: 0;
   width: 100vw;
@@ -18,12 +18,18 @@ body {
   color: #73AD21;
 }
 
-a.link {
-  display: block;
-  margin: 45px;
-  padding: 25px 0px 10px 0px;
-  border: 2px solid #73AD21;
+.text {
+  width: 100%;
+  text-align: center;
+}
 
+a.link {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none !important;
+  margin: 10px auto;
+  border: 2px solid #73AD21;
+  width: 50%;
 }
 
 .vertical-align {
@@ -45,9 +51,9 @@ a.link {
 	font-weight: 300;
   display: block;
   margin: auto;
-  width: 60%;
+  width: 48%;
   border: 2px solid #73AD21;
-  padding: 10px;
+  padding: 13px;
   border-radius: 0px;
 }
 
